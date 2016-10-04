@@ -1,0 +1,15 @@
+EDITOR=/usr/bin/vim
+SHELL=/bin/bash
+export EDITOR SHELL 
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias md='mkdir'
+alias d='ls -al'
+alias run='chmod u+x'
+alias mc='. /usr/share/mc/bin/mc-wrapper.sh'
+#alias mc='. /usr/local/libexec/mc/mc-wrapper.sh'
+alias cls='clear'
+alias nh='nautilus .'
+alias p='python'

@@ -1,0 +1,38 @@
+Title: About the Web
+
+This is an article about the World Wide Web.
+The World Wide Web is a collection of documents that are linked to
+one another. The Web is *not* the same as the
+Internet. The Internet is a world-wide network of networks, and it
+does far more than simply serve up Web pages.
+
+Tim Berners-Lee, the inventor of the World Wide Web, put special
+emphasis on the portability of Web pages. Rather than create a
+proprietary format, he made Web pages dependent only upon plain ASCII
+text.
+
+Web pages are written in a markup language called HTML. Here is what it
+looks like. The &lt; and &gt; mark off elements.
+
+---begin listing
+<body>
+<div id="top-navig">
+<a id="top"></a>
+<a href="index.html">CIT 040 Index</a>
+&gt;
+Assignment 1
+</div>
+
+<h1>Assignment 1</h1>
+<p>This exercise shows you how to use the two computer environments that
+you will use in this class. You will:</p>
+<ol class="upper-roman">
+<li>Set up your directories on Windows. This is
+where you will write your HTML documents.</li>
+</ol>
+---end listing
+
+It looks difficult, but it is possible to learn HTML in a few
+weeks. *You, too can create Web pages for viewing by
+friends and family!*
+Note that, in our listing, we had to encode &gt; as &amp;gt.

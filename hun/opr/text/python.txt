@@ -1,0 +1,15 @@
+valami 1
+ezt is toroljuk
+python is a general-purpose, high-level programming language[11] whose
+design philosophy emphasizes code readability.[12] python claims to
+combine "remarkable power with very clear syntax",[13] and its standard
+library is large and comprehensive.
+
+python supports multiple programming paradigms, primarily but not limited
+to object-oriented, imperative and, to a lesser extent, functional
+programming styles. It features a fully dynamic type system and automatic
+memory management, similar to that of Scheme, Ruby, Perl, and Tcl. Like
+other dynamic languages, python is often used as a scripting language,
+but is also used in a wide range of non-scripting contexts. Using
+third-party tools, python code can be packaged into standalone executable
+programs. python interpreters are available for many operating systems.

@@ -1,0 +1,20 @@
+Bontsuk ki a zip file-t, majd írjunk egy olyan Python 3 (!)
+szkriptet, ami átnevezi a file-okat úgy, hogy az
+állományok neve olvasható legyen. Példa:
+
+S05E01_20A_20baj_20nem_20j_E1r_20egyed_FCl.avi =>
+S05E01_A_baj_nem_jar_egyedul.avi
+
+A projekt gyökérkönyvtárában legyen a Python szkript,
+s ebből a könyvtárból nyíljanak az S05..S08 alkönyvtárak.
+A szkriptnek ezeket az alkönyvtárakat rekurzívan kell majd
+bejárnia.
+
+A "-n" kapcsoló hatására a szkript "dry" módban fusson le,
+azaz ne végezze el az átnevezéseket, csak írja ki, hogy mit
+mire nevezne át.
+
+Segítség:
+---------
+* unipath külső modul, Path osztály, walk() metódus
+* shutil beépített modul, move() metódus

@@ -1,0 +1,35 @@
+Az alábbi kérdések a grepdata.txt fájlra vonatkoznak.
+=====================================================
+
+(1) Írassuk ki mindazon telefonszámokat, melyek kiterjesztést is
+    tartalmaznak (x vagy X után négy számjegy).
+
+(2) Írassuk ki mindazon sorokat, melyek három számjeggyel kezdődnek,
+    majd ezután szóközt tartalmaznak. Az ismétlések leírásához használja
+    a \{ és \} jeleket.
+
+(3) Írassuk ki mindazon sorokat, melyekben szerepel egy dátum (a minta
+    legyen egyszerű, nem kell a 2000 előtti dátumokra is működnie).
+
+(4) Írassuk ki mindazon sorokat, melyek tartalmaznak egy magánhangzót
+    (a, e, i, o, u), majd egy karaktert, majd ismét ugyanezt a magánhangzót.
+    Tipp: \( és \).
+    Pl.: eve, adam. A vera viszont nem felel meg a feltételnek.
+
+(5) Írassuk ki mindazon sorokat, melyek _nem_ S-sel (nagy S) kezdődnek.
+
+
+Az alábbi kérdések megválaszolásához használjuk a grep _parancssori kapcsolóit_ is.
+---------------------------------------------------------------------------------
+
+(1) Írassuk ki mindazon sorokat, melyek tartalmazzák a CA sztringet (akár kis-, akár
+    nagybetűsen).
+
+(2) Írassuk ki mindazon sorokat, melyek tartalmaznak egy email címet (szerepel
+    bennük a @ jel). Írassuk ki a talált sorok sorszámait is.
+
+(3) Írassuk ki mindazon sorokat, melyek _nem_ tartalmazzák a "Sep." szót 
+    (idézőjelek nélkül, beleértve a pontot is).
+
+(4) Írassuk ki mindazon sorokat, melyek tartalmazzák a "de" sztringet (idézőjelek nélkül) 
+    mint _önálló_ szót.

@@ -1,0 +1,1 @@
+http://git.busybox.net/busybox/tree/examples/inittab

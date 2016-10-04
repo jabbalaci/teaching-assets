@@ -1,0 +1,31 @@
+Unix (officially trademarked as UNIX, sometimes also written as Unix) is
+a multitasking, multi-user computer operating system originally developed
+in 1969 by a group of AT&T employees at Bell Labs, including Ken Thompson,
+Dennis Ritchie, Brian Kernighan, Douglas McIlroy, and Joe Ossanna. The
+Unix operating system was first developed in assembly language, but by
+1973 had been almost entirely recoded in C, greatly facilitating its
+further development and porting to other hardware. Today's unix system
+evolution is split into various branches, developed over time by AT&T
+as well as various commercial vendors, universities (such as University
+of California, Berkeley's BSD), and non-profit organizations.
+
+abc
+bcd
+cde
+def
+
+Az algoritmus szó és fogalom a matematikából ered, de a számítástechnikai
+kultúra elterjedése, popularizálódása ültette át a köznyelvbe.
+Algoritmuson vagy inkább eljáráson olyan megengedett lépésekből álló módszert,
+utasítás(sorozato)t, részletes útmutatást, receptet értünk, amely valamely
+felmerült probléma megoldására alkalmas. Például eljárást, algoritmust,
+receptet lehet adni egy „kombo” asztal (vagy egyéb bútor) összeszerelésére,
+valamilyen élelmiszer, mondjuk sajt (vagy bármilyen tejipari termék)
+elkészítésének módjára, a Deák térről a Lánchídhoz vezető út megtalálására,
+vagy éppen két egész szám legnagyobb közös osztójának kiszámolására. A
+számítógépes programok általában tartalmaznak algoritmusokat, ezekkel
+utasítják a gépet az adott feladat végrehajtására.
+A konkrét algoritmus megadásához tudni kell, hogy mik a megengedett lépések.
+Enélkül az az egy lépés is algoritmus lehetne, hogy süssük meg a kenyeret.
+Csak a megengedett lépésekkel lehet az algoritmuson bonyolultsági elemzést
+végezni.

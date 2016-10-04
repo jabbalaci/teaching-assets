@@ -1,0 +1,647 @@
+===============================================================================
+=        Welcome  to  the  C O M M A N D E R  Tutor  -  Version 0.1           =
+===============================================================================
+
+     This tutorial covers the basic elements of the following softwares:
+     Total Commander (for Windows) and Midnight Commander (for Unix). This 
+     tutor is designed to describe enough of the features that you will be 
+     able to easily use a commander for most of your file management tasks.
+
+     It is important to remember that this tutor is set up to teach by
+     use.  It means that you need to try everything to learn them
+     properly.  If you only read the text, you will forget it!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~  Total Commander (TC) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 0:  INSTALLATION
+
+
+  1. Visit the site http://www.ghisler.com/ , and download the software.
+     Install it.
+
+  2. It is recommended to do the following customizations in the menu
+     Configuration->Options...
+       Layout           choose everything
+       Icons            choose "All", otherwise it'll be too slow
+       Edit/View        you can specify here your favourite text editor
+                        (we'll come back to this point later)
+       Quick Search     choose Alt+Letters, this is the classic
+                        Norton Commander style
+
+       Press Apply, then OK. The configuration part is done.
+
+  3. Add a shortcut to TC to (1) the desktop, and to (2) the taskbar.
+     This way you can launch TC very quickly.
+
+  SUMMARY: Your TC is up and running.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 1:   MOVE AROUND
+   Lesson 1.1: FIRST VIEW
+
+
+  1. Total Commander has three main parts:
+     - a left panel
+     - a right panel
+     - a miniaturized command shell at the bottom
+     At a given time, just one panel can be active. The other panel is said
+     to be passive (or inactive). The header of the active panel is darker 
+     blue, and it also has a so-called "file cursor". You can change between
+     active and passive panels with the <TAB> key.
+
+     If we should sum up the basic idea of a commander, then it would be
+     the following: when we execute a file operation (like copy/move), there
+     is always a source directory (active panel), and a destination 
+     directory (passive panel). That is, operations are executed BETWEEN
+     the two panels.
+
+  2. The mini shell accepts commands at the bottom.
+     Type:  cmd <ENTER>
+     It will launch a DOS window.
+
+  3. A panel shows the contents of a directory, i.e. files and 
+     subdirectories. Subdirectories are shown above ordinary files.
+
+  4. A panel has several columns, e.g. Name, Ext(ension), Size, etc.
+     It can be customized, but the default layout is perfect.
+
+  SUMMARY: You are starting to understand what is on the screen.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 1.2: BASIC MOVEMENTS
+
+
+  1. Use the cursor keys (<Up>, <Down>) to move the file cursor in the active
+     panel.
+  
+  2. Use <TAB> to move the file cursor to the other panel. Remember, the
+     panel that has the file cursor is the active panel.
+
+  3. Use the <PgUp>, <PgDn> keys to move the file cursor one page up/down.
+
+  4. Use the <HOME>, <END> keys to jump to the beginning or to the end
+     of a directory list.
+
+  5. Enter a directory: position the file cursor on the directory
+     and press <ENTER>.
+
+  6. Once in a directory, you can return to the parent dir.
+     by pressing <ENTER> on .. , which is always at the top
+     of a directory list.
+     Another alternative is to press <BACKSPACE>.
+
+  SUMMARY: You can move around in a panel, and you can change to the
+           other panel too.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 1.3: CHANGE DRIVE
+
+
+  1. To change to another drive (partition), you have three possibilities:
+     (a) Press the button of a drive above a panel.
+     (b) Use the drop-down list above a panel.
+     (c) Use <ALT> + <F1> to change the left panel.
+         Use <ALT> + <F2> to change the right panel.
+
+  SUMMARY: You can traverse your computer entirely.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 1.4:  POSITION THE CURSOR ON A SPECIFIC FILE / DIR.
+
+
+  1. Let's say we have the following directories:
+     - C:\Perl
+     - C:\Program files
+     We are on the drive C: , and we want to enter the directory
+     "Program files". First we need to position the file cursor on
+     this directory: press <ALT> + <P>. The cursor will jump to the
+     directory "Perl" since alphabetically this is the first dir.
+     whose name starts with "P". Now press <R>, and the cursor jumps 
+     to "Program files". That is, TC uses an incremental search. 
+     Press <ENTER> to enter this directory.
+     Alternative solution: you can use your mouse too.
+
+  SUMMARY: Now you can quickly go wherever you want.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 2:    BASIC FILE / DIR. OPERATIONS
+  Lesson 2.1:  COPY (F5)
+
+
+  1. The basic idea is the following: 
+     we copy FROM one place (source) TO another place (destination).
+     Source: active panel. Destination: passive panel.
+
+NOTE: This is the core idea of all commanders. Execute an operation
+      from the active panel to the passive one.
+
+  2. Here is how to copy D:\tmp\a.txt  to  C:\tmp.
+     - set the left panel to C:\tmp
+     - set the right panel to D:\tmp
+     - position the file cursor on a.txt
+     - <F5>  <ENTER>
+     Note that the two panels can be changed, i.e. 
+     C:\tmp can be on the right side and D:\tmp
+     on the left side.
+
+  3. That is: set the two panels, choose the files/dirs
+     to copy, then <F5>  <ENTER>.
+      
+  4. To copy more than one thing, use the <INSERT> key to
+     select a list of files and/or dirs. The list is
+     marked red. Then <F5>  <ENTER>.
+     Directories are copied recursively.
+
+NOTE: To switch the two panels, press <CTRL> + <U>.
+
+NOTE: Very often we want to have the same directory in 
+      both panels. For instance, we are in D:\tmp on the 
+      right side. Make this side active, 
+      press <ALT> + <F1>, and choose "D" for the left side.
+      D:\tmp will appear on the left side.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 2.2:  MOVE (F6)
+
+
+  1. Similar to copy:
+     - select files/dirs
+     - press <F6>  <ENTER> to move your selection to the other panel
+  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 2.3:  RENAME (F6)
+
+
+  1. <F6> is used for renaming too. Steps:
+     - press <F6> on the file/dir that you want to rename
+     - type in the new name and press <ENTER>
+
+  2. An alternative solution is to use the mouse. Click on the file/dir
+     once and leave the mouse pointer there. Try again if it doesn't want to
+     work :) Then type in the new name and <ENTER>.
+
+NOTE: You can also combine move and rename. When you press <F6>, a dialog
+      window appears. If you type in a new name (i.e., you remove the
+      path before the name), then it'll be a rename operation. If you simply
+      press <ENTER> without changing anything in the dialog, it'll
+      be a move operation. If you leave a path AND you change the name, 
+      then it'll be a move and rename operation.
+
+NOTE: The previous note is true for the copy operation. 
+      Three possibilities:
+      - make a copy in the current directory under a different name
+      - copy to another directory with the same name
+      - copy to another directory with a different name
+  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 2.4:  CREATE A NEW FOLDER (F7)
+
+
+  1. To create a new folder (directory), press <F7>, type in
+     the name of the folder, then <ENTER>.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 2.5:  DELETE (F8)
+
+
+  1. To delete a file:
+     - position the file cursor on the file
+     - press <F8>  <ENTER>
+
+  2. A dir. is deleted similarly. Directories are removed recursively.
+
+  3. You can also delete more things. Select your list with
+     <INSERT>, then <F8>  <ENTER>.
+
+  SUMMARY: You can copy / move / delete / create directory.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 3:    MOUSE / EXIT / OPEN A FILE
+  Lesson 3.1:  MOUSE
+
+
+  1. You can use the mouse everywhere, but it is not really recommended.
+     First, you can do everything much more efficiently with the
+     keyboard. Second, you risk to be the target of jokes
+     among your colleagues. 
+     Remember: power users don't even touch the mouse.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 3.2:  EXIT
+
+  1. Press <ALT> + <F4>, or just simply click on the X in the 
+     top right hand corner of the main window.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 3.2:  OPEN A FILE
+
+  1. Simply press <ENTER> on the current file. The application that
+     is associated to its extension will be called automatically.
+
+  SUMMARY: In this lesson you learnt how to pretend to be a real pro;
+           you can quit from TC; and you can open files.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 4:    VIEW AND EDIT
+  Lesson 4.1:  VIEW
+
+  1. TC has a built-in viewer. Press <F3> on a file.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 4.2:  EDIT
+
+  1. TC uses Notepad by default for editing files. Press <F4> on a file.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 4.3:  USE YOUR FAVOURITE TEXT EDITOR
+
+  1. You can tell TC to call your favourite text editor for the
+     view / edit operations.
+
+  2. Let's see how to use gVim for example.
+     - go to Configuration->Options->Edit/View
+     - choose "External viewer", and by clicking on ">>", browse
+       to gvim.exe
+     - specify the absolute path of gvim.exe for the editor too
+
+  3. Now <F3> and <F4> on a file will call gVim. 
+
+NOTE: If you want to create a new file, press <SHIFT> + <F4>.
+      Precise the name of the file, then <ENTER>.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 5:    EXTRA INFO + ADVANCED FILE SELECTION
+  Lesson 5.1:  EXTRA INFO
+
+  1. TC provides some extra information. Let's see them.
+
+  2. Above the panel:
+     - free space on the partition
+     - total size of the partition
+
+  3. Below the panel:
+     - sum of the sizes of the chosen files
+
+  4. Size of a dir.:
+     - position the file cursor on a dir, then <SPACE>
+
+NOTE: Above a panel there are two buttons. With "\" you can jump
+      back to the root of the partition. With ".." you can jump 
+      back to the parent directory (however, <BACKSPACE> is 
+      easier to use).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 5.1:  ADVANCED FILE SELECTION
+
+  1. We have already seen that <INSERT> can be used to select
+     a list of files / dirs.
+
+  2. Gray *     - invert selection
+                  (on laptops: Mark->Invert Selection)
+
+  3. Gray +     - select group
+                  (on laptops: Mark->Select Group...)
+
+  4. Gray -     - unselect group
+                  (on laptops: Mark->Unselect Group...)
+
+  5. When selecting a group, you can specify a pattern:
+     *.png      - select all PNG files
+
+EXERCISE: select all files that are not PNG files.
+
+EXERCISE: select all files pressing just one key.
+
+SUMMARY: Now you are always aware of the free / occupied space
+         of your partitions. You can also fine tune your file selections.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 6:  COMMAND LINE
+
+  1. We have seen the two panels of TC. Now let's investigate
+     the mini command line at the bottom. This is a 
+     miniaturized shell actually.
+
+  2. Type the following command:  cmd  <ENTER>
+     It'll open a DOS window.
+     When you start to freely type a text in TC, it'll appear
+     in the mini command line!
+
+  3. Attention! The previously started DOS window opens in the
+     current directory. That is, if you were in C:\tmp in TC,
+     then the DOS window is also opened in this directory.
+     Advantage: you don't have to bother much about the "cd"
+     commands. 
+
+SUMMARY: You avoid lots of headache by being able to open
+         your DOS windows in the _current directory_.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 6:  ADVANCED COPY
+
+  1. We have already seen how to copy:
+     choose what you want to copy, <F5>  <ENTER>.
+     However, if you copy large files like AVI movies,
+     you may have to wait several minutes until the copy
+     operation terminates.
+
+  2. In TC, you can send a copy to background. Press
+     the "Background" button on the copy status window
+     (or use the shortcut <ALT> + <B>).
+     However, if you send several copies to the 
+     background, they'll run parallely, so all of them
+     will be very slow.
+
+  3. Put your expensive copy operations in a queue. Thus,
+     only one copy operation is executed at a time, and when 
+     it's done, the next one starts automatically.
+     - choose your list of files/dirs
+     - <F5>  <F2> , i.e. press <F2> instead of <ENTER>
+     Do the same thing with the next files/dirs you want to 
+     copy. TC will nicely add them to the end of the
+     copy queue.
+
+  4. You can manipulate the elements in the queue too:
+     - remove elements
+     - reorder elements
+     - pause / resume the whole copy operation
+     - limit the bandwidth
+
+  5. The same is true for the move operation.
+
+SUMMARY: Now if you buy a new hard drive and visit 
+         your mass downloader friend to copy some movies,
+         you can do it in a painless way.
+         That is: (1) you don't have to sit next to 
+         the machine and wait for the termination of
+         single copies; (2) you won't kill the
+         machine by launching 50 parallel copies that will
+         never terminate.
+         Just collect everything in a queue, and check back
+         later.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 7:  COMPRESSED FILES
+
+
+  1. How to compress:
+     - select what you want to compress
+     - <ALT> + <F5>
+     - in the dialog window select an algorithm, then <ENTER>
+     - as usual, the output will appear in the other panel
+
+  2. How to uncompress:
+     - Press <ENTER> on the compressed file. Now you can see the
+       contents as if it were a normal file system.
+     - Select what you want to extract, and copy to
+       the other panel.
+
+  3. It is also possible to remove files from a compressed file.
+
+SUMMARY: You can manipulate different compressed file formats.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 8:  MENU
+
+
+  1. Lots of options are available in TC through its menu. We cannot detail
+     them all here, but let's mention some of them.
+
+  2. Files->Change Attributes..
+        make a file/dir. hidden, read-only, etc.
+     Files->Split File...
+        cut a large file into smaller pieces
+     Files->Combine Files...
+        put the small pieces together
+     Mark->Compare Directories
+        show the difference between two dirs
+     Net->FTP Connect...
+        TC has a simple built-in FTP client
+     etc.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Lesson 9:    MISCELLANEOUS
+  Lesson 9.1:  SEARCH FOR A FILE
+
+
+  1. You want to find a specific file.
+     - Press <ALT> + <F7> and specify the file's name.
+     - By default TC will start the search from the current
+       directory (where you pressed <ALT> + <F7>), but it
+       can be modified in the search dialog.
+
+  2. In the search dialog you can use wildcards too:
+     - *.png for instance to find all PNGs
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Lesson 9.2:  USING A USB PEN DRIVE
+
+
+  1. Just connect it and it'll appear among the drives.
+
+  2. To unmount, right click on its drive button, and
+     choose "Eject".
+     It may be possible that it won't work. In this case
+     you'll have to quit TC and unmount the drive
+     from Windows.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Lesson 9.3:  DIRECTORY SHORTCUTS
+
+
+  1. It is possible to collect our favourite directories in
+     a menu. For example, we have a current project, and we love
+     an mp3 album. A shortcut can be added to both of them to
+     access them quickly.
+
+  2. How to add a shortcut:
+     - go to the dir. to which you want to assign a shortcut
+     - press <CTRL> + <D>, and "Add current dir"
+     - choose a name (or leave the default name), <ENTER>
+
+  3. How to use a shortcut:
+     - press <CTRL> + <D>
+     - choose the dir. where you want to jump, then <ENTER>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~  Midnight Commander (MC) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 0:    INTRODUCTION, INSTALLATION, CUSTOMIZATION
+   Lesson 0.1:  INTRODUCTION
+
+
+   1. Midnight Commander is a Norton Commander clone under Unix/Linux.
+      Most of the parts of this tutorial that covers TC is also true for MC, 
+      so we won't repeat the similarities. Rather we focus on differences and 
+      specialities of MC.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 0.2: INSTALLATION
+
+
+   1. MC is part of most Linux systems. If it's missing, then install
+      the package "mc". Under Debian for instance:
+      root$  apt-get install mc
+
+   2. Once installed, you can launch it by typing "mc":
+      user$  mc
+
+   3. As you can see, it is very similar to TC. It also has
+      the classical layout, i.e. 2 panels and a mini command line.
+      MC is actually closer to Norton Commander than TC is. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 0.3: CUSTOMIZATION
+
+
+   1. It is recommended to customize MC a bit.
+      Enter the menu above by pressing <F9>
+      - in Right->Listing mode... , choose
+        (*) user defined...
+        [*] user Mini status
+        OK
+      - repeat the same in Left->Listing mode...
+      At the end don't forget to save your changes:
+         Options->Save setup
+
+   2. If you want to use MC's built-in file viewer
+      and editor, then go to 
+      Options->Configuration... , and unselect the following:
+      [ ] use internal edit
+      [ ] use internal view
+      At the end don't forget to save your changes:
+         Options->Save setup
+
+   3. If you want to use your favourite text editor for
+      view and edit operations, then go to
+      Options->Configuration... , and select the following:
+      [x] use internal edit
+      [x] use internal view
+      At the end don't forget to save your changes:
+         Options->Save setup
+
+      Define your favourite editor in the shell's 
+      global variable EDITOR. In bash for
+      instance, add the following line to your .bashrc:
+
+      export EDITOR=/usr/bin/vi
+
+   4. After the installation, MC has an annoying default 
+      behaviour. When you start MC in a directory "A" and you
+      go to dir. "B" and quit, in the shell you fall back
+      to "A". If you prefer staying in dir. "B" (as expected 
+      normally), add the following line to your .bashrc:
+
+      alias mc='. /usr/share/mc/bin/mc-wrapper.sh'
+      # right before /usr..., there is a space
+
+   5. A very common thing is that we want to see the
+      same dirs in both panels. For instance, we are
+      in /tmp/print on the left side, and in /home/jabba
+      on the right side. The left panel is active, and
+      we want to get /tmp/print on the right side too.
+      A naive approach is to navigate there. A more 
+      sophisticated solution is the following:
+
+      - add the following lines to your .bashrc:
+
+         alias cpc='CWD_LAC=`pwd`'
+         alias cdc='cd $CWD_LAC'
+
+      - usage (with the example above):
+
+         (a) on the left side, type  cpc <ENTER>
+         (b) go to the right side and type  cdc <ENTER>
+
+         Now you have the same directories in both panels.
+
+      - how to memorize it:
+         cpc  - copy path (to) clipboard
+         cdc  - cd (to the dir. on the) clipboard
+
+NOTE: Steps 4 and 5 are detailed here:
+http://www.loria.fr/~szathmar/pmwiki/index.php?n=Linux.20071123McSamePanel
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Lesson 1:    MAIN DIFFERENCES FROM TC
+
+
+   1. In a panel, file permissions are also indicated.
+
+   2. Changing drives with <ALT> + <F1> and <ALT> + <F2>
+      doesn't work here since we cannot talk about drives
+      under Linux. Everything is mounted under the root
+      directory.
+      As a consequence, the command "cd" is quite often 
+      used in MC in the mini command line.
+
+   3. You can exit with <F10>. MC starts very quickly, so
+      it is usual to enter / quit MC several times in a 
+      session.
+
+   4. Under X you can use the mouse too, though it is not
+      a good habit. Just forget this point.
+
+   5. When you execute a command in the mini shell, the result
+      will be hidden behind the panels. To see behind the
+      curtains, use <CTRL> + <O>. If you press <CTRL> + <O>
+      again, the panels return.
+      Example: type date <ENTER>, then check the result.
+
+   6. For the incremental search for a file/dir. name in the
+      current directory, do the following:
+      Press <ESC> once (release it), then <S>. Now you can
+      start typing the name you are looking for. When the file
+      cursor is on the desired file/dir., press <ESC> twice to 
+      quit from searching, or <ENTER> to open the file / enter the dir.
+
+   7. Selecting files with "*", "+", or "-" usually works on laptops
+      too. That is you don't have to have the gray keys on the right
+      side of your keyboard.
+
+   8. For copying the current file's (dir.'s) name to the command line,
+      use <ESC> (release) <ENTER>.
+      Example: you want to edit the file .bashrc:
+      - locate it with an incremental search (step 6)
+      - type vi  <ESC> (release) <ENTER>, then <ENTER> again
+
+   9. The menu can be accessed by <F9>. However, it is not as rich
+      as the menu of TC. When you modify something, don't forget to 
+      save your changes (Options->Save setup).
+
+NOTE: These are the most important differences. The common parts of
+MC and TC are not detailed here, we leave them for you to discover :)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  This concludes the Commander Tutor. It was intended to give a brief
+  overview, just enough to allow you to use a commander fairly easily.
+  However, it is far from complete, so read the built-in helps of
+  the softwares too.
+
+  This tutorial was written by Laszlo Szathmary 
+  (http://www.loria.fr/~szathmar, jabba.laci@gmail.com).
+  The form of this tutorial was inspired by "vimtutor" from which I borrowed
+  some elements. This text is available under the terms of the 
+  GNU Free Documentation License.
+
+  CHANGELOG:
+  ==========
+  (yyy.mm.dd.  --  version)
+  2007.12.14.  --  v0.1
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
