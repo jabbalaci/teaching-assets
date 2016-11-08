@@ -1,11 +1,12 @@
-#!/usr/bin/env python2
-# encoding: utf-8
+#!/usr/bin/env python3
+# coding: utf-8
 
 import time
 
+
 def main():
     while True:
-        print '.'
+        print('.')
         time.sleep(1)
 
 ##############################################################################

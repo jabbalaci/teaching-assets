@@ -1,18 +1,21 @@
-#!/usr/bin/env python2
-# encoding: utf-8
+#!/usr/bin/env python3
+# coding: utf-8
 
-import time
 import signal
+import time
+
 
 def sigint_handler(signum, frame):
-    print "Ne nyomkodd a CTRL+C-t!"
+    print("Ne nyomkodd a CTRL+C-t!")
+
 
 def sigterm_handler(signum, frame):
-    print "Nice try :)"
+    print("Nice try :)")
+
 
 def main():
     while True:
-        print '.'
+        print('.')
         time.sleep(1)
 
 ##############################################################################
