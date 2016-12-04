@@ -1,7 +1,7 @@
 {
-    "last": "Doe", 
-    "first": "John", 
-    "age": 39, 
+    "last": "Doe",
+    "first": "John",
+    "age": 39,
     "sex": "M",
     "registered": true,
     "salary": 70000

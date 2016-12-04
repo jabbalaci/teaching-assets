@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
+
 
 def write_file():
     person = {
@@ -13,7 +14,7 @@ def write_file():
     }
 
     f = open('employee.json', 'w')
-    json.dump(person, f)
+    json.dump(person, f, indent=2)
     f.close()
 
 #############################################################################

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
 
@@ -12,7 +12,7 @@ def read_string():
 
     d = json.loads(s)
 
-    print d
+    print(d)
 
 #############################################################################
 
