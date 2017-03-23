@@ -1,21 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
-/*
-    Ugyanazokat a "random" szamokat fogja generalni az
-    
-    srand(time(NULL));
-    
-    sor nelkul.
-*/
+#include <time.h>
+#include <unistd.h>
 
 void show(int tomb[], int meret)
 {
     int i;
 
-    for (i = 0; i < meret; ++i)
-    {
+    for (i = 0; i < meret; ++i) {
        printf("%d ", tomb[i]);
     }
     printf("\n");
@@ -27,7 +19,9 @@ int main()
     int meret = 10;
     int i;
 
-//    srand(time(NULL));
+    /* srand(42); */
+   srand(time(NULL) + getpid());
+   /* srand(time(NULL)); */
     for (i=0; i<meret; ++i) {
         tomb[i] = (int)(random() % meret + 1);
     }
