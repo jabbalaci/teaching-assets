@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# launcher script for Studio 3T (formerly MongoChef)
+
+cd /opt/studio-3t-5.4.0-linux-x64/bin
+./studio-3t.sh &>/dev/null &
