@@ -1,0 +1,5 @@
+scripting language
+Guido van Rossum
+readable
+garbage-collected
+dynamically typed

@@ -1,0 +1,7 @@
+in operator
+
+
+Exercise
+
+    We have a list called `fruits`. Check if "apple" is
+    in the list.

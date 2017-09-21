@@ -1,0 +1,16 @@
+fruits = ["apple", "orange", "banana"]
+print each element ^^^ in a new line
+#
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+filter even numbers from nums ^^^ to a new list called `even`
+
+
+Exercise
+
+    What is the output of this snippet?
+
+    total = 0
+    numbers = [1, 2, 3, 5, 8]
+    for n in numbers:
+        total = total + n    # total += n
+    print(n)
