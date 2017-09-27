@@ -1,0 +1,3 @@
+Íme, miért használja a vim a hjkl billentyűket a kurzor mozgatására:
+
+http://www.catonmat.net/blog/why-vim-uses-hjkl-as-arrow-keys/
