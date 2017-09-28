@@ -1,0 +1,12 @@
+<form action="{{ url_for('fn_fagyi') }}" method="GET">
+  Mi a kedvenc fagyid?
+  <input type="text" placeholder="fagyi" autofocus size="50" name="iz">
+  <input type="submit" value="OK">
+  <input type="reset" value="Reset">
+</form>
+
+{% if iz %}
+<hr>
+
+Az Ön kedvenc fagyija: {{ iz }}.
+{% endif %}
