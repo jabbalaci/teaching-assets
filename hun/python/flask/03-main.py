@@ -10,7 +10,7 @@ def hello_world():
         'name': 'Laci',
         'count': 10
     }
-    return render_template('index.html', **context)
+    return render_template('03-index.html', **context)
 
 
 if __name__ == "__main__":

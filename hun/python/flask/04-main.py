@@ -13,7 +13,7 @@ def hello_world():
     context = {
         'p': me,
     }
-    return render_template('index.html', **context)
+    return render_template('04-index.html', **context)
 
 
 if __name__ == "__main__":

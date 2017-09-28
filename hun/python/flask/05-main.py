@@ -2,18 +2,15 @@
 
 from flask import Flask, render_template, request
 
-from models.person import Person
-
 app = Flask(__name__)
 
 
 @app.route('/')
 def hello_world():
-    me = Person('Jabba Laci', 29)
     context = {
-        'p': me,
+        'name': 'Laci',
     }
-    return render_template('index.html', **context)
+    return render_template('05-index.html', **context)
 
 
 @app.route('/fagyi')
@@ -22,7 +19,7 @@ def fn_fagyi():
     context = {
         'iz': iz,
     }
-    return render_template('fagyi.html', **context)
+    return render_template('05-fagyi.html', **context)
 
 
 if __name__ == "__main__":

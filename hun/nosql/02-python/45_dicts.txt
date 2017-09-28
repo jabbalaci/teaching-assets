@@ -1,4 +1,4 @@
 Exercise
 
-    Initialize a dictionary called `color` with the following
+    Initialize a dictionary called `colors` with the following
     data (key / value pairs): earth is green, sky is blue, sea is blue.

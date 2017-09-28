@@ -20,20 +20,10 @@ DB = {
 
 @app.route('/')
 def hello_world():
-    me = Person('Jabba Laci', 29)
     context = {
-        'p': me,
+        'name': 'Laci',
     }
-    return render_template('index.html', **context)
-
-
-@app.route('/fagyi')
-def fn_fagyi():
-    iz = request.args.get('iz', '').strip()
-    context = {
-        'iz': iz,
-    }
-    return render_template('fagyi.html', **context)
+    return render_template('06-index.html', **context)
 
 
 @app.route('/movies/<string:code>')
