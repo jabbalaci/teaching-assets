@@ -1,0 +1,21 @@
+Project the awards.text field:
+
+    TODO...
+
+
+Find movies that won an award:
+
+    db.movieDetails.find({"awards.text": {$regex: "Won"}}, {"awards.text": 1, _id: 0}).pretty()
+    db.movieDetails.find({"awards.text": {$regex: "^Won"}}, {"awards.text": 1, _id: 0}).pretty()    // notice the ^ sign
+
+
+Find movies that won a Golden Globe:
+
+    Complete this:
+
+    db.movieDetails.find({"awards.text": {$regex: "Golden Globe"}}, {"awards.text": 1, _id: 0}).pretty()
+
+
+Alternative notation in the Mongo shell:
+
+    db.movieDetails.find({"awards.text": /^Won/}, {"awards.text": 1, _id: 0}).pretty()

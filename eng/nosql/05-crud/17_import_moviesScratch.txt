@@ -1,0 +1,5 @@
+Execute the following command in this directory:
+
+    mongorestore
+
+It'll import the collection video.moviesScratch .

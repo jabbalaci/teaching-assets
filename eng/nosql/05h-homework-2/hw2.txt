@@ -1,0 +1,4 @@
+Write a program (possibly in Python) that inserts
+the 1.000 JSON files in `data.zip` to the database.
+
+Insert the documents to the collection `radio.slay`.
