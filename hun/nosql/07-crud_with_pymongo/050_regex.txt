@@ -1,0 +1,9 @@
+Google: mongodb $regex
+
+    -> https://docs.mongodb.com/manual/reference/operator/query/regex/
+
+Options:
+
+    i       case insensitivity
+            (maybe the most udeful option)
+

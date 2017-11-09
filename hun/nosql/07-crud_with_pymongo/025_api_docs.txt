@@ -1,0 +1,16 @@
+http://api.mongodb.com/
+http://api.mongodb.com/python/
+http://api.mongodb.com/python/current/
+
+API docs: http://api.mongodb.com/python/current/api/index.html
+
+
+Most interesting at the moment:
+-------------------------------
+collection – Collection level operations
+
+http://api.mongodb.com/python/current/api/pymongo/collection.html
+
+Look up:
+* find
+  http://api.mongodb.com/python/current/api/pymongo/collection.html#pymongo.collection.Collection.find
