@@ -1,0 +1,20 @@
+$inc operator
+-------------
+
+With the movie "The Martian":
+
+    * increment "tomato.meter" with 2
+    * increment "tomato.reviews" with 10
+
+    db.movieDetails.updateOne({title: "The Martian"}, {$inc: {"tomato.meter": 2, "tomato.reviews": 10}})
+
+
+What happens, if you increment a non-existing field?
+
+    * increment "counter" with 2
+
+
+Now decrement "counter" with 10, thus the new value should be -8.
+
+
+When ready, delete the field "counter".

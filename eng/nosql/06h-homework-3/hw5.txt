@@ -1,0 +1,6 @@
+We need the collection `movieDetails`.
+See `04-crud/` if you want to restore it.
+
+----------
+
+How many movies list "Sweden" second in the the list of countries?
