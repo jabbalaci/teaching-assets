@@ -1,0 +1,6 @@
+First, install Redis Desktop Manager, since the installation
+takes 10-15 minutes.
+
+Follow the instructions on this page:
+
+    http://docs.redisdesktop.com/en/latest/install/#build-from-source
