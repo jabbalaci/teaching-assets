@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-# coding: utf-8
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -10,7 +9,6 @@
 
 # A magyar változatot készítette:
 # Szathmáry László (jabba.laci@gmail.com)
-# frissítés Python 3-ra: 2016.09.09.
 
 # Alapvető sztring műveletek
 # Írjuk meg az alábbi függvények törzsét. A main() fv.
@@ -78,14 +76,14 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{p} got: {g}; expected: {e}'.format(p=prefix, g=got, e=expected))
+    print '{p} got: {g}; expected: {e}'.format(p=prefix, g=got, e=expected)
 
 
 # Ezt ne módosítsuk.
 # A main() fv. meghívja a fenti fv.-eket különféle paraméterekkel,
 # s a test() fv. segítségével megnézi, hogy az eredmények helyesek-e.
 def main():
-    print('donuts')
+    print 'donuts'
     # Minden egyes sor meghívja a donuts() fv.-t s összehasonlítja a visszaadott
     # értéket a várt eredménnyel.
     test(donuts(4), 'Fánkok száma: 4')
@@ -93,22 +91,22 @@ def main():
     test(donuts(10), 'Fánkok száma: sok')
     test(donuts(99), 'Fánkok száma: sok')
 
-    print()
-    print('both_ends')
+    print
+    print 'both_ends'
     test(both_ends('spring'), 'spng')
     test(both_ends('Hello'), 'Helo')
     test(both_ends('a'), '')
     test(both_ends('xyz'), 'xyyz')
 
-    print()
-    print('fix_start')
+    print
+    print 'fix_start'
     test(fix_start('babble'), 'ba**le')
     test(fix_start('aardvark'), 'a*rdv*rk')
     test(fix_start('google'), 'goo*le')
     test(fix_start('donut'), 'donut')
 
-    print()
-    print('mix_up')
+    print
+    print 'mix_up'
     test(mix_up('mix', 'pod'), 'pox mid')
     test(mix_up('dog', 'dinner'), 'dig donner')
     test(mix_up('gnash', 'sport'), 'spash gnort')

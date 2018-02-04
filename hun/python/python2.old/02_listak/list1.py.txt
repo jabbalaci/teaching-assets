@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-# coding: utf-8
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -10,7 +9,6 @@
 
 # A magyar változatot készítette:
 # Szathmáry László (jabba.laci@gmail.com)
-# frissítés Python 3-ra: 2016.09.09.
 
 
 # A. match_ends
@@ -44,20 +42,20 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{p} got: {g}; expected: {e}'.format(p=prefix, g=got, e=expected))
+    print '{p} got: {g}; expected: {e}'.format(p=prefix, g=got, e=expected)
 
 
 # Ezt ne módosítsuk.
 # A main() fv. meghívja a fenti fv.-eket különféle paraméterekkel,
 # s a test() fv. segítségével megnézi, hogy az eredmények helyesek-e.
 def main():
-    print('match_ends')
+    print 'match_ends'
     test(match_ends(['aba', 'xyz', 'aa', 'x', 'bbb']), 3)
     test(match_ends(['', 'x', 'xy', 'xyx', 'xx']), 2)
     test(match_ends(['aaa', 'be', 'abc', 'hello']), 1)
 
-    print()
-    print('front_x')
+    print
+    print 'front_x'
     test(front_x(['bbb', 'ccc', 'axx', 'xzz', 'xaa']),
          ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
     test(front_x(['ccc', 'bbb', 'aaa', 'xcc', 'xaa']),
