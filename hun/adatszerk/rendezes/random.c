@@ -1,14 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <unistd.h>
+#include <stdlib.h>    // rand(), srand()
+#include <string.h>
+#include <time.h>      // time()
+#include <unistd.h>    // getpid()
 
 void show(int tomb[], int meret)
 {
     int i;
 
     for (i = 0; i < meret; ++i) {
-       printf("%d ", tomb[i]);
+        if (i > 0) {
+            printf(" ");
+        }
+        printf("%d", tomb[i]);
     }
     printf("\n");
 }
@@ -19,10 +23,11 @@ int main()
     int meret = 10;
     int i;
 
-    /* srand(42); */
-   srand(time(NULL) + getpid());
-   /* srand(time(NULL)); */
-    for (i=0; i<meret; ++i) {
+   srand(42);
+//    srand(time(NULL));
+    // srand(time(NULL) + getpid());
+
+    for (i = 0; i < meret; ++i) {
         tomb[i] = (int)(random() % meret + 1);
     }
     show(tomb, meret);
