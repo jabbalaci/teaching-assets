@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # coding: utf8
 
 # Copyright 2010 Google Inc.
@@ -36,18 +36,18 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('{p} got: {g}; expected: {e}'.format(p=prefix, g=got, e=expected))
+    print '{p} got: {g}; expected: {e}'.format(p=prefix, g=got, e=expected)
 
 
 # Calls the above functions with interesting inputs.
 def main():
-    print('remove_adjacent')
+    print 'remove_adjacent'
     test(remove_adjacent([1, 2, 2, 3]), [1, 2, 3])
     test(remove_adjacent([2, 2, 3, 3, 3]), [2, 3])
     test(remove_adjacent([]), [])
 
-    print()
-    print('list_merge')
+    print
+    print 'list_merge'
     test(list_merge(['aa', 'xx', 'zz'], ['bb', 'cc']),
          ['aa', 'bb', 'cc', 'xx', 'zz'])
     test(list_merge(['aa', 'xx'], ['bb', 'cc', 'zz']),

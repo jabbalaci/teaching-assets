@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
@@ -24,7 +24,7 @@ part of it, then try it to see if it works. If everything is OK, go on to
 the next part.
 """
 
-#############################################################################
+############################################################################
 
 TEXT = """The Old Sea-dog at the Admiral Benbow
 
