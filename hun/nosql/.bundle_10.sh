@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-DIR="10-redis"
+NUM=10
+DIR="$NUM-redis"
+ZIP="all_$NUM.zip"
 
-rm $DIR/all.zip 2>/dev/null
-zip -r all.zip $DIR
-mv all.zip $DIR
+rm $DIR/$ZIP 2>/dev/null
+zip -r $ZIP $DIR
+mv $ZIP $DIR
