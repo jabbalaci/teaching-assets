@@ -1,6 +1,6 @@
 Take a review from `video.reviews`.
 
-In `video.movieDetails`, find the movie "The Martian".
+In `movies.movieDetails`, find the movie "The Martian".
 
 For The Martian, create a field called "reviews", which will
 be a list. In this list add a review from `video.reviews`.

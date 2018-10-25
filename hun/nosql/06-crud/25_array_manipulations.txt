@@ -13,8 +13,6 @@ In the collection "test.arrays", insert one document:
 
     db.arrays.updateOne({_id: 0}, {$pop: {a: -1}})    // pop from the left side
 
-    db.arrays.updateOne({_id: 0}, {$pushAll: {a: [7, 8, 9]}})
-
     db.arrays.updateOne({_id: 0}, {$pull: {a: 5}})    // remove element 5, wherever it is
 
     db.arrays.updateOne({_id: 0}, {$pullAll: {a: [2, 7, 9]}})    // remove all these elements
