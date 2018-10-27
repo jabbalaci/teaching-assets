@@ -1,0 +1,16 @@
+Ismerkedés a Spyder editor-ral.
+
+A `spyder/` mappa tartalmát másoljuk be
+a `~/.config` mappába. A `template.py` file
+elérési útja így pl. a köv. lesz:
+
+    ~/.config/spyder-py3/template.py
+
+Új file létrehozásakor a `template.py` tartalmát
+fogja beolvasni.
+
+A Spyder-ben van egy IPython ablak is. Ez figyelembe
+veszi a `~/.ipython/profile_default` (amit az előbb
+állítottunk be), még ha nem is ír ki semmit.
+A `dir()` paranccsal meg tudjuk nézni, hogy mik
+szerepelnek a névtérben.

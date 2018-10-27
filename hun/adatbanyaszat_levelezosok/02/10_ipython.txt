@@ -1,0 +1,7 @@
+Ismerkedjünk az IPython interaktív shell-lel.
+
+Majd az `ipython/` mappa tartalmát másoljuk be
+a `~/.ipython` mappába. A `20-pandas.py` file
+elérési útja így pl. a köv. lesz:
+
+    ~/.ipython/profile_default/startup/20-pandas.py
