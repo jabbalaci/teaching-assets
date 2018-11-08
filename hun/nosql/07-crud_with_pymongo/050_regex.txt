@@ -5,5 +5,5 @@ Google: mongodb $regex
 Options:
 
     i       case insensitivity
-            (maybe the most udeful option)
+            (maybe the most useful option)
 

@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
+
 """
 Do you expect the second insert below to succeed?
 """
+
+...    # some missing parts
 
 db = connection.school
 people = db.people
@@ -14,4 +18,6 @@ try:
     people.insert_one(doc)   # second insert
 
 except Exception as e:
-    print "Unexpected error:", type(e), e
+    print("Unexpected error:", type(e), e)
+
+print("done")

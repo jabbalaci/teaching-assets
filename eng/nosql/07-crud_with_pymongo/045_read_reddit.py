@@ -31,6 +31,8 @@ def main():
         # put it in mongo
         stories.insert_one(item['data'])
 
+    print("done")
+
 ##############################################################################
 
 if __name__ == "__main__":
