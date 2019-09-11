@@ -1,3 +1,0 @@
-
-    print(9 / 0)
-    print("but the show must go on")    # print this line too

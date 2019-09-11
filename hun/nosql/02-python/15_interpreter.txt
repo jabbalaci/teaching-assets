@@ -1,9 +1,0 @@
-print("hello")
-strings
-concatenation
-
-
-Exercise
-
-    Concatenate the words "bull" and "dog", and store the result in
-    a variable called `pet`.

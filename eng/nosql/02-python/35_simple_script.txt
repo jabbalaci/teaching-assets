@@ -1,5 +1,0 @@
-write a basic script and run it
-use a function
-call a function
-specialities: indentation, colon, no semicolon
-use an `if` statement
