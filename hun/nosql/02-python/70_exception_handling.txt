@@ -1,0 +1,16 @@
+
+    print(9 / 0)
+    print("but the show must go on")    # print this line too
+
+
+Exercise
+
+    Ask a whole number from the user and print it to the screen
+    as an integer (NOT as a string):
+
+    $ ./exercise.py
+    Number: 12
+    12
+
+    However! If he doesn't type a whole number, then print
+    an error message.

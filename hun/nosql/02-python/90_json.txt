@@ -1,0 +1,12 @@
+how to work with JSON files in Python
+see the Python course, PDF #10
+
+
+Exercise
+
+    From the corresponding data file, extract the answer to the
+    following questions:
+    * What is the title of the song?
+    * How many tags are associated to the song?
+    * Who is the author of this song?
+    * What is the title of the next song to be played?

@@ -1,0 +1,21 @@
+slicing works with strings and with lists too
+
+
+Exercise #1
+
+    Consider the following string:
+
+    s = "Witcher 3: Wild Hunt"
+
+    Using slicing, extract the the following substrings:
+    * itch
+    * Hunt
+
+
+Exercise #2
+
+    Let li = [5, 8, 3, 2, 5, 3, 9, 20, 4]
+
+    Create a sublist that contains:
+    * the first three elements
+    * the last five elements

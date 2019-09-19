@@ -1,0 +1,10 @@
+slices
+
+
+Exercise
+
+    Consider the following list:
+
+        fruits = ["grape", "kiwi", "apple", "orange", "banana"]
+
+    Using slice notation, extract the sublist ["apple", "orange"].
