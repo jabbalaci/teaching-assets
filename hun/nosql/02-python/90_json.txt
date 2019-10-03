@@ -6,6 +6,7 @@ Exercise
 
     From the corresponding data file, extract the answer to the
     following questions:
+
     * What is the title of the song?
     * How many tags are associated to the song?
     * Who is the author of this song?

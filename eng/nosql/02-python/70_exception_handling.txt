@@ -5,12 +5,12 @@
 
 Exercise
 
-    Ask a whole number from the user and print it to the screen
-    as an integer (NOT as a string):
+    Ask a whole number from the user, increment it by one, and print the result
+    to the screen the following way:
 
     $ ./exercise.py
-    Number: 12
-    12
+    Number: 41
+    41 + 1 = 42
 
-    However! If he doesn't type a whole number, then print
+    However! If the user doesn't provide a whole number, then print
     an error message.

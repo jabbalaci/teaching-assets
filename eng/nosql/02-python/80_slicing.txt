@@ -14,8 +14,9 @@ Exercise #1
 
 Exercise #2
 
-    Let li = [5, 8, 3, 2, 5, 3, 9, 20, 4]
+    let li = [5, 8, 3, 2, 5, 3, 9, 20, 4]
 
     Create a sublist that contains:
+
     * the first three elements
     * the last five elements
