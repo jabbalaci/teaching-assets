@@ -1,0 +1,12 @@
+_id
+
+
+Homework
+
+    Take an ObjectId and extract its pieces:
+    - date (display it in a human-readable way)
+    - MAC address
+    - PID
+    - counter
+
+    You can use any programming language.
