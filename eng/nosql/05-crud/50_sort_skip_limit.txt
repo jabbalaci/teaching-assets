@@ -1,0 +1,4 @@
+Run the previous script (`45_insert_many.js`) to populate
+the collection `video.movies`.
+
+Try sort, skip, and limit.
