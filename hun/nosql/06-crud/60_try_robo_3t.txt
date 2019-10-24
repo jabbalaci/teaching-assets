@@ -1,0 +1,26 @@
+Robo 3T
+-------
+
+(formerly Robomongo)
+
+"Robo 3T brings you support for MongoDB 4.0 and SCRAM-SHA-256,
+an upgraded mongo shell, support for importing from MongoDB SRV
+connection strings, among many other fixes and improvements."
+
+https://robomongo.org/download
+
+
+Studio 3T
+---------
+
+"Robo 3T's big brother.
+
+Studio 3T is the professional GUI and IDE for MongoDB available
+for Windows, Mac, and Linux. Explore and manage your data faster
+with features like query building, data exploration, aggregation
+and data comparison, import/export, code generation, and more –
+with or without the knowledge of the MongoDB query language."
+
+https://studio3t.com
+
+You get a 7-day trial.

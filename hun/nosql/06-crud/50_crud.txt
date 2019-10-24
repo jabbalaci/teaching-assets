@@ -1,0 +1,13 @@
+CRUD operations
+===============
+
+Create
+Read
+Update
+Delete    <- let's see this
+
+
+Update commands:
+
+    * deleteOne()
+    * deleteMany()
