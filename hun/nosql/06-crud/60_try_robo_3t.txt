@@ -1,5 +1,5 @@
 Robo 3T
--------
+=======
 
 (formerly Robomongo)
 
@@ -9,9 +9,11 @@ connection strings, among many other fixes and improvements."
 
 https://robomongo.org/download
 
+Download it, install it, try it.
+
 
 Studio 3T
----------
+=========
 
 "Robo 3T's big brother.
 
@@ -24,3 +26,8 @@ with or without the knowledge of the MongoDB query language."
 https://studio3t.com
 
 You get a 7-day trial.
+
+Homework
+--------
+
+Try Studio 3T at home and compare it with Robo 3T.
