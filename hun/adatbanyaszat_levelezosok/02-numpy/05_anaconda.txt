@@ -1,0 +1,16 @@
+A virtuális gépen már fent van az Anaconda disztribúció
+a /opt/anaconda3 mappában.
+
+Nézzük meg, hogy melyik az alapértelmezett Python:
+
+    $ which python
+    /usr/bin/python
+
+Mostantól használjuk az Anaconda disztribúciót.
+A ~/.bashrc végére szúrjuk be a köv. sort:
+
+    export PATH=/opt/anaconda3/bin:$PATH
+
+Nyissunk egy új terminált, majd ellenőrizzük le,
+hogy az Anaconda Python interpretere lett-e az
+alapértelmezett.
