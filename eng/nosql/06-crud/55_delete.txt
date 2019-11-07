@@ -1,0 +1,18 @@
+delete
+------
+
+* deleteOne()
+* deleteMany()
+
+
+    db.coll.delete*({<condition>})
+
+
+Exercise
+
+    Delete the movie with title "Star Wars V: The Empire Strikes Back".
+
+
+Exercise
+
+    Delete all the movies that were made in 1990.

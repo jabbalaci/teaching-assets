@@ -1,0 +1,15 @@
+upsert
+------
+
+* UPdate if it exists
+* inSERT if it doesn't exist
+
+    use test
+
+    db.people.find()    // empty
+
+    db.people.updateOne({name: "Joe"}, {$set: {age: 22}}, {upsert: true})    // inserted
+
+    db.people.updateOne({name: "Joe"}, {$set: {age: 40}})    // change age to 40
+
+    db.people.updateOne({name: "Joe"}, {$set: {age: 22}}, {upsert: true})    // updated this time
