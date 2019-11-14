@@ -1,0 +1,6 @@
+Don't forget the order:
+
+1) sort
+2) skip
+3) limit
+
