@@ -1,0 +1,13 @@
+Install Redis Desktop Manager, a graphical front-end for Redis:
+
+    https://redisdesktop.com/
+
+    https://redisdesktop.com/download
+
+    $ sudo snap install redis-desktop-manager
+
+Launch it with:
+
+    $ redis-desktop-manager.rdm
+
+Make sure that `/snap/bin` is in your PATH.
