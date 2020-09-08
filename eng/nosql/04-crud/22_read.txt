@@ -1,5 +1,0 @@
-CRUD / Read
------------
-
-- findOne
-- find
