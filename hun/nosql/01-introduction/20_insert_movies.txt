@@ -1,8 +1,0 @@
-insert some movies in video.movies:
-
-    use video
-    db.movies.insertOne({"title": "Total Recall", "year": 1990, "score": 7.5})
-
-    Star Wars V, 1980, 8.8
-    Jurassic Park, 1993, 8.1
-    Darkman, 1990, 6.4

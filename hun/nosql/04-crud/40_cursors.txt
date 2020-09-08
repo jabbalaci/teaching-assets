@@ -1,5 +1,0 @@
-find() returns a cursor
-
-in the shell, type "it" to iterate over the cursor
-
-    db.movieDetails.find({rated: "PG"})
