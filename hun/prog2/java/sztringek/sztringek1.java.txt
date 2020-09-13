@@ -52,7 +52,7 @@ public class Main
 
     static void test(String got, String expected)
     {
-        String prefix = (got == expected ? " OK " : "  X ");
+        String prefix = (got.equals(expected) ? " OK " : "  X ");
         System.out.printf("%s got: %s; expected: %s\n", prefix, got, expected);
     }
 
