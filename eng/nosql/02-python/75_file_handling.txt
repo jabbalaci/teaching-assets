@@ -1,0 +1,19 @@
+open a text file and print each line
+
+
+Exercise #1
+
+    Open https://arato.inf.unideb.hu/szathmary.laszlo/pmwiki/index.php?n=EnPy3.20120818h
+    and save the data (the 50 numbers) in a file called `numbers.txt`.
+    Write a program that calculates the sum of the numbers in `numbers.txt`.
+
+
+Exercise #2
+
+    Modify the previous program. Write the result to a file called `result.txt`.
+
+
+Tip
+
+    >>> int("2019")    # convert a string to a number
+    2019

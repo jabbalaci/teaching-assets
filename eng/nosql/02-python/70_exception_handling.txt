@@ -1,0 +1,16 @@
+
+    print(9 / 0)
+    print("but the show must go on")    # print this line too
+
+
+Exercise
+
+    Ask a whole number from the user, increment it by one, and print the result
+    to the screen the following way:
+
+    $ ./exercise.py
+    Number: 41
+    41 + 1 = 42
+
+    However! If the user doesn't provide a whole number, then print
+    an error message.
