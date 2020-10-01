@@ -5,7 +5,7 @@ Homework
 
     Take an ObjectId and extract its pieces:
     - date (display it in a human-readable way)
-    - MAC address
+    - machine ID
     - PID
     - counter
 
