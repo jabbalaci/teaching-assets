@@ -1,0 +1,8 @@
+a handy way to reduce the size of the returned documents
+
+    db.movieDetails.find({rated: "PG"}, {title: 1})
+
+    db.movieDetails.find({rated: "PG"}, {title: 1, _id: 0})
+
+    // show all the fields, except these
+    db.movieDetails.find({rated: "PG"}, {_id: 0, awards: 0, writers: 0}).pretty()
