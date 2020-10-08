@@ -1,0 +1,21 @@
+See also https://docs.mongodb.com/manual/reference/operator/query-element/ .
+
+We want to test the shape of the documents.
+
+$exists operator
+----------------
+
+Check if a field exists or not.
+
+In our database there are some old movies too, and thus they have
+no Tomato score.
+
+First, find movies that have a Tomato meter:
+
+    db.movieDetails.find({"tomato.meter": {$exists: true}}).pretty()
+    db.movieDetails.find({"tomato.meter": {$exists: 1}}).pretty()       // same
+
+
+Now find movies that have no Tomato meter score:
+
+    TODO...
