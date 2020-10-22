@@ -1,0 +1,18 @@
+Take a review from `video.reviews`.
+
+In `movies.movieDetails`, find the movie "The Martian".
+
+For The Martian, create a field called "reviews", which will
+be a list. In this list add a review from `video.reviews`.
+
+    db.movieDetails.updateOne({title: "The Martian"},
+    {$push:
+        {
+            reviews: {
+                "rating" : 5,
+                "date" : ISODate("2015-12-18T09:00:00Z"),
+                "reviewer" : "Jarrad C",
+                "text" : "The Martian Review: There are some movies..."
+            }
+        }
+    })
