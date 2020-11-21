@@ -1,0 +1,15 @@
+Telepítsük fel a numpy és ipython csomagokat:
+
+* pip3 install numpy --user -U
+
+* pip3 install ipython --user -U
+
+Indítsuk el az IPython shell-t és importáljuk a numpy csomagot:
+
+    $ ipython
+    Python 3.8.6 (default, Sep 30 2020, 04:00:38)
+    Type 'copyright', 'credits' or 'license' for more information
+    IPython 7.19.0 -- An enhanced Interactive Python. Type '?' for help.
+
+    In [1]: import numpy as np
+    In [2]:
