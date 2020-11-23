@@ -11,6 +11,6 @@ ami baseball játékosok magasságát tartalmazza (cm-ben).
     # készítsünk egy numpy tömböt a fenti listából
     np_baseball = ...
 
-    # írassuk ki np_baseball típuást
+    # írassuk ki np_baseball típusát
     print(...)
 """
