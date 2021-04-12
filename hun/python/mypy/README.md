@@ -6,7 +6,7 @@ Blog post: https://pythonadventures.wordpress.com/2018/07/25/mypy-optional-stati
 Telepítés
 ---------
 
-    $ pip install mypy -U --user
+    $ pip3 install mypy --user -U
 
 Telepítés helye:
 

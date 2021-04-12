@@ -1,0 +1,16 @@
+* int, float, str, bool
+
+from typing import List, Union, ...
+
+* List[int]          # list of integers
+
+* Union[int, str]    # valamelyik
+
+* Optional[str]      # ezzel ekvivalens: Union[None, str]
+                     # vagyis: vagy str-t ad vissza, vagy None értéket
+
+* Any                # bármi
+
+
+def komplikalt():
+    result = cucc.get_result()    # type: ignore
