@@ -1,0 +1,13 @@
+a = ["orange", "apple", "banana"]    # the syntax is similar to JSON
+empty list
+nested list, where an element is a list
+indexing
+.append()
+
+
+Exercise
+
+    Create a list with the following elements: "book", "pen", "pencil".
+    Assign the list to a variable called `table`.
+
+    Once the list is assigned to `table`, add the new element "water" to the list.

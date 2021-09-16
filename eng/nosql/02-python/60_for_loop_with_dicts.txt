@@ -1,0 +1,12 @@
+for key in d:
+    print(key)
+
+
+Exercise
+
+    What is the output of this snippet?
+
+    person = {'name': 'Jane', 'city': 'New York', 'favorite_color': 'pink'}
+    for item in person:
+        if (item == 'favorite_color'):
+            print(person[item])
