@@ -58,7 +58,7 @@ def fix_start(s):
     return
 
 
-# D. MixUp
+# D. mix_up
 # Adott két bemeneti sztring, a és b. Adjunk vissza egyetlen sztringet,
 # melyben a és b konkatenálva van úgy, hogy köztük egyetlen szóköz szerepel.
 # Ezen túl cseréljük fel a két sztring első két karakterét az eredményben.
