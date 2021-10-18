@@ -11,6 +11,8 @@ def hello_world():
         'count': 10
     }
     return render_template('03-index.html', **context)
+    # equivalent to:
+    # return render_template('03-index.html', name='Laci', count=10)
 
 
 if __name__ == "__main__":

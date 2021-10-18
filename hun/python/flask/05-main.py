@@ -13,13 +13,13 @@ def hello_world():
     return render_template('05-index.html', **context)
 
 
-@app.route('/fagyi')
-def fn_fagyi():
-    iz = request.args.get('iz', '').strip()
+@app.route('/icecream')
+def fn_icecream():
+    flavor = request.args.get('flavor', '').strip()
     context = {
-        'iz': iz,
+        'flavor': flavor,
     }
-    return render_template('05-fagyi.html', **context)
+    return render_template('05-icecream.html', **context)
 
 
 if __name__ == "__main__":

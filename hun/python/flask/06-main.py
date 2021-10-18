@@ -21,7 +21,7 @@ DB = {
 @app.route('/')
 def hello_world():
     context = {
-        'name': 'Laci',
+        'name': 'Laszlo',
     }
     return render_template('06-index.html', **context)
 
