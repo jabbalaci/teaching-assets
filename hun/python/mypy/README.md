@@ -51,6 +51,7 @@ at PyCon 2017
 
 https://www.youtube.com/watch?v=7ZbwZgrXnwY
 
+\pagebreak
 feladat
 -------
 
@@ -68,4 +69,6 @@ Példák:
 ajánlott IDE
 ------------
 
-PyCharm. A PyCharm felismeri és ellenőrzi ezeket a típusmegjelöléseket.
+* PyCharm. A PyCharm felismeri és ellenőrzi ezeket a típusmegjelöléseket.
+
+* VS Code. A Python extension szintén felismeri és ellenőrzi a típusmegjelöléseket.
