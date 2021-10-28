@@ -1,0 +1,37 @@
+
+    db.movieDetails.find().pretty()
+
+    There's a "poster" field for some movies.
+
+----------
+
+    Find a movie where the "poster" field is missing.
+
+----------
+
+    There's 1 movie with a missing "poster" field: "The Martian".
+
+    * Go to IMDb and find the URL of the poster.
+    * Insert the poster's URL in the document.
+
+    db.movieDetails.updateOne({title: "The Martian"},
+        {$set: {poster: "http://.../poster.jpg"}}
+    )
+
+    { "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+    Here, $set is an update operator. When you use update*(), you
+    must specify an update operator.
+
+----------
+
+    db.movieDetails.updateOne({title: "The Martian"},
+    {
+      $set: {
+        "awards": {
+          "wins": 8,
+          "nominations": 14,
+          "text": "Nominated for 3 Golden Globes. Another 8 wins & 14 nominations."
+        }
+      }
+    });

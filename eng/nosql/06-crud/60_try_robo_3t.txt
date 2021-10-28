@@ -1,0 +1,33 @@
+Robo 3T
+=======
+
+(formerly Robomongo)
+
+"Robo 3T 1.4 brings support for MongoDB 4.2,
+and a mongo shell upgrade from 4.0 to 4.2,
+with the ability to manually specify visible databases."
+
+https://robomongo.org/download
+
+Download it, install it, try it.
+
+
+Studio 3T
+=========
+
+"Robo 3T's big brother.
+
+Studio 3T is the professional GUI and IDE for MongoDB available
+for Windows, Mac, and Linux. Explore and manage your data faster
+with features like query building, data exploration, aggregation
+and data comparison, import/export, code generation, and more –
+with or without the knowledge of the MongoDB query language."
+
+https://studio3t.com
+
+You get a 7-day trial.
+
+Homework
+--------
+
+Try Studio 3T at home and compare it with Robo 3T.
