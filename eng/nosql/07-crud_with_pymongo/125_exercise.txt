@@ -1,0 +1,30 @@
+Solve the following exercises in Python
+=======================================
+
+Part 1
+------
+
+* Save the subreddit https://old.reddit.com/r/EarthPorn/ in json format.
+  Don't worry, this subreddit contains landscape images.
+  Save the json in a file called `earth.json`.
+* Normally, the JSON file contains 25 entries.
+  Load these 25 entries in the following collection: `reddit.earth`,
+  where "reddit" is the name of the database.
+* Write a program, that connects to the aforementioned collection
+  and prints the URL of each image.
+
+
+Part 2
+------
+
+Write a Flask application that accepts the name of
+a subreddit. Example:
+
+    http://127.0.0.1/subreddit/earthporn
+
+where "earthporn" is the name of a subreddit.
+
+This subreddit contains links to landscape images.
+The application must show a list, which contains the titles
+of the posts. Each title must be a link. If you click on it,
+visit the URL of the given landscape image.
