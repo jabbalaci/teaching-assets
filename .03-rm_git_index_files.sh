@@ -4,3 +4,4 @@
 \rm .git/logs/refs/remotes/index.html
 \rm .git/logs/refs/remotes/origin/index.html
 \rm .git/logs/refs/heads/index.html
+
