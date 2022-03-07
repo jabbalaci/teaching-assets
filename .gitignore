@@ -3,4 +3,6 @@ __pycache__/
 
 .01-update_index_htmls.sh
 .02-git_up_to_central_repo.sh
+.03-rm_git_index_files.sh
+
 .vscode/
