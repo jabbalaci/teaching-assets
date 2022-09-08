@@ -1,7 +1,0 @@
-If you have admin rights:
-
-    sudo pip3 install flask -U
-
-If you don't have admin rights (recommended):
-
-    pip3 install flask --user -U

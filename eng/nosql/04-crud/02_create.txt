@@ -1,7 +1,0 @@
-CRUD / Create
--------------
-
-- insertOne()
-- insertMany()
-
-- update commands ("upserts")
