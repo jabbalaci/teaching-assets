@@ -1,0 +1,5 @@
+Exercise
+
+    Create a new dictionary with a single key, "animals" whose value is
+    the list "dog", "cat", and "wolf".
+    Assign the entire expression to a variable called "things".
