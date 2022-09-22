@@ -1,0 +1,12 @@
+<form action="{{ url_for('fn_icecream') }}" method="GET">
+  What's your favorite flavor?
+  <input type="text" placeholder="icecream" autofocus size="50" name="flavor">
+  <input type="submit" value="OK">
+  <input type="reset" value="Reset">
+</form>
+
+{% if flavor %}
+<hr>
+
+Your favorite flavor is: {{ flavor }}.
+{% endif %}
