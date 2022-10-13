@@ -1,7 +1,7 @@
 $ne operator
 ------------
 
-List movies that have a rating. If a movie has no rating, than
+List movies that have a rating. If a movie has no rating, then
 its rating has the value "UNRATED" in the database.
 
     db.movieDetails.find({rated: {$ne: "UNRATED"}}).pretty()
