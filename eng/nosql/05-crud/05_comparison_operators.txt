@@ -1,0 +1,38 @@
+See https://docs.mongodb.com/manual/reference/operator/query-comparison/ .
+
+$gt     >
+$gte    >=
+$lt     <
+$lte    <=
+$ne     not equal
+
+
+Find all movies that are longer than 100 minutes.
+
+    db.movieDetails.find({runtime: {$gt: 100}})
+
+
+Show just the title of these ^^^ movies.
+
+    TODO...
+
+
+You can also specify ranges. Find movies that are longer than
+100 minutes, but shorter than 120 minutes.
+
+    db.movieDetails.find({runtime: {$gt: 100, $lt: 120}})
+
+
+Find movies with runtime [100..120] minutes.
+
+    db.movieDetails.find({runtime: {$gte: 100, $lte: 120}})    // notice $gte and $lte
+
+
+Show the title and the runtime of these ^^^ movies.
+
+    TODO...
+
+
+Find movies whose Tomato meter is at least 80 and whose runtime is at least 3 hours.
+
+    db.movieDetails.find({"tomato.meter": {$gte: 80}, runtime: {$gte: 180}}, {title: 1, _id: 0})
