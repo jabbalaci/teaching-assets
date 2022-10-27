@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="/opt/robo3t/bin"
+DIR="/opt/studio3t"
 
 cd $DIR
-./robo3t &>/dev/null &
+./Studio-3T &>/dev/null &

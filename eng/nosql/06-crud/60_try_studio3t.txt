@@ -1,0 +1,21 @@
+Studio 3T Free (new)
+====================
+Robo 3T is now Studio 3T Free
+
+Studio 3T Free comes with a full product 30-day trial.
+Once this period is over, continue using the Free-forever version.
+
+https://studio3t.com/
+
+
+Robo 3T (older)
+===============
+(formerly Robomongo)
+
+"Robo 3T 1.4 brings support for MongoDB 4.2,
+and a mongo shell upgrade from 4.0 to 4.2,
+with the ability to manually specify visible databases."
+
+https://robomongo.org/download
+
+Download it, install it, try it.
