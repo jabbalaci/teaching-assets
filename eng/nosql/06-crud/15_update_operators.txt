@@ -1,0 +1,10 @@
+See https://docs.mongodb.com/manual/reference/operator/update-field/
+
+$set      set / modify a field
+$unset    remove a field
+
+With the movie "The Martian":
+
+    * add the field "length" with value 144
+    * check if it was added
+    * remove the field "length"

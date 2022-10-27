@@ -1,0 +1,11 @@
+replaceOne()
+------------
+
+First, run `43_insertMany.js`.
+
+!!! Danger! It replaces the WHOLE document!
+
+
+    db.movies.find()
+
+    db.movies.replaceOne({title: "Star Wars V"}, {title: "Star Wars V: The Empire Strikes Back"})

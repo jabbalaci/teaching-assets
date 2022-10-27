@@ -1,0 +1,5 @@
+We need the `movies.movieDetails` collection.
+It has 2,295 documents.
+
+With `04-crud/25_restore_movieDetails.sh` you can restore it
+if it's missing.
