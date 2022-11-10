@@ -1,0 +1,15 @@
+http://api.mongodb.com/
+https://docs.mongodb.com/drivers/python/
+
+API docs: https://pymongo.readthedocs.io/en/stable/api/index.html
+
+
+Most interesting at the moment:
+-------------------------------
+collection – Collection level operations
+
+https://pymongo.readthedocs.io/en/stable/api/pymongo/collection.html
+
+Look up:
+* find
+  https://pymongo.readthedocs.io/en/stable/api/pymongo/collection.html#pymongo.collection.Collection.find
