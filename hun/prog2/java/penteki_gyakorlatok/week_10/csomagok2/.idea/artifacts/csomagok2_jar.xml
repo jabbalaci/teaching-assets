@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="csomagok2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/csomagok2_jar</output-path>
+    <root id="archive" name="csomagok2.jar">
+      <element id="module-output" name="csomagok2" />
+    </root>
+  </artifact>
+</component>
