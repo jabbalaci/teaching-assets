@@ -8,7 +8,7 @@ import openai
 
 def get_response(prompt: str) -> str:
     response = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="text-davinci-003",
         prompt=prompt,
         temperature=0.5,
         max_tokens=256,
@@ -40,7 +40,7 @@ def main():
     # gpt = """Elon Musk let Donald Trump come back to Twitter. What do you think?"""
     print(gpt)
     response = get_response(gpt)
-    pprint(response)
+    print(response)
 
 
 ##############################################################################
