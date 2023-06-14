@@ -1,0 +1,24 @@
+# ~/.bashrc
+# javasolt beállítások
+
+alias d='ls -al'
+alias q='clear; ls -al'
+alias p="python3"
+alias p3="python3"
+alias mc='. /usr/lib/mc/mc-wrapper.sh'
+alias po="poetry"
+
+export PATH=$PATH:$HOME/.local/bin
+
+# for plain old virt. env.'s
+alias venv_init="python3 -m venv .venv"
+alias venv_freeze="pip freeze --local"
+alias on="source .venv/bin/activate"
+alias off="deactivate"
+
+# for Poetry
+poetry_on () {
+    source "`poetry env info -p`/bin/activate"
+}
+alias pon="poetry_on"
+alias poff="deactivate"
