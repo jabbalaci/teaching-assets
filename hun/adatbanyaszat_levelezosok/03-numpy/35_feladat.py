@@ -8,5 +8,5 @@ ami baseball játékosok magasságát tartalmazza (inch-ben).
 + készítsünk ebből egy numpy tömböt, majd
 + konvertáljuk az értékeket méterbe
   (ehhez az inch-et szorozzuk meg 0.0254 -gyel)
-+ írassuk ki az eredméyt
++ írassuk ki az eredményt
 """
