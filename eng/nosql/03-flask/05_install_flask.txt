@@ -1,0 +1,3 @@
+If you don't have admin rights (recommended):
+
+    pip3 install flask --user -U
