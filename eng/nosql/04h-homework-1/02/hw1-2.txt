@@ -1,0 +1,10 @@
+Use the command `mongorestore` to restore the dump.
+As a result, you get a collection called `numbers` in the database `mongolab`.
+
+Get PyMongo installed on your computer. To prove it's installed, run the program:
+
+    python3 hw1-2.py
+
+Note that you will need to get MongoDB installed and the homework dataset imported.
+
+This program will print a numeric answer. What is this number?
