@@ -1,0 +1,2 @@
+We'll work with the collection `movies.movieDetails`.
+See `04-crud/25_restore_movieDetails.sh`.
