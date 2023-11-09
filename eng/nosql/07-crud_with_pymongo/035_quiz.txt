@@ -1,0 +1,3 @@
+Modify the previous program to
+
+* search for all quiz scores that are greater than 20 and less than 90
