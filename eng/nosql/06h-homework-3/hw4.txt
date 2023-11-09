@@ -1,0 +1,8 @@
+We need the collection `movieDetails`.
+See `04-crud/` if you want to restore it.
+
+----------
+
+What is the title of the movie from the year 2013
+that is rated PG-13 and won no awards?
+Please query the `video.movieDetails` collection to find the answer.
