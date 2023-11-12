@@ -8,4 +8,4 @@ import numpy as np
 np_baseball = np.array(baseball)
 
 # Print out type of np_baseball
-print(type(np_baseball)
+print(type(np_baseball))

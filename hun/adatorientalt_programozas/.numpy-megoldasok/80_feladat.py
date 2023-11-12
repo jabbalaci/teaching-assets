@@ -1,23 +1,19 @@
-# heights and positions are available as lists
-
-# Import numpy
 import numpy as np
 
-# Convert positions and heights to numpy arrays: np_positions, np_heights
-np_positions = np.array(positions)
-np_heights = np.array(heights)
+from fifa_players import np_heights, np_positions
+
 # print(np_positions.shape)
 # print(np_heights.shape)
 
 # Heights of the goalkeepers: gk_heights
-gk_heights = np_heights[np_positions == 'GK']
+gk_heights = np_heights[np_positions == "GK"]
 
 # Heights of the other players: other_heights
-other_heights = np_heights[np_positions != 'GK']
+other_heights = np_heights[np_positions != "GK"]
 print(len(gk_heights), len(other_heights))
 
 # Print out the median height of goalkeepers. Replace 'None'
-print("Median height of goalkeepers: " + str(np.median(gk_heights)))
+print("Median height of goalkeepers:", np.median(gk_heights))
 
 # Print out the median height of other players. Replace 'None'
-print("Median height of other players: " + str(np.median(other_heights)))
+print("Median height of other players:", np.median(other_heights))
