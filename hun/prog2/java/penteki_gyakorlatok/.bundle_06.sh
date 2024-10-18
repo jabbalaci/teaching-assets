@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NUM=07
+NUM=06
 DIR="week_$NUM"
 ZIP="all_$NUM.zip"
 
