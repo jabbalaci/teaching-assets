@@ -1,0 +1,34 @@
+os and os.path modules
+======================
+
+https://docs.python.org/3/library/os.html
+
+    import os
+
+
+    os.mkdir("hello")           create a folder
+    os.rmdir("hello")           delete (an empty) folder
+
+    os.listdir(".")             content of the current folder
+
+
+https://docs.python.org/3/library/os.path.html
+
+    import os
+
+    # no need to `import os.path` in this case
+    # after `import os`, `os.path` is also available
+
+    os.path.exists()            Does the entry exist?
+    os.path.isfile()            Is the entry a file?
+    os.path.isdir()             Is the entry a folder?
+
+    os.remove()                 delete a file
+
+
+Exercise:
+
+    Write a program that prints the content of the current
+    directory.
+    First, print the folders (in alphabetical order).
+    Then, print the files (in alphabetical order too).

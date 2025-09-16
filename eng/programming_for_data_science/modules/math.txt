@@ -1,0 +1,18 @@
+math module
+===========
+
+https://docs.python.org/3/library/functions.html
+
+    abs(-5)
+    round(3.1)
+
+
+https://docs.python.org/3/library/math.html
+
+    import math
+
+
+    math.pi
+
+    math.floor(3.99)
+    math.ceil(3.2)
