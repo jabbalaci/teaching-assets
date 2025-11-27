@@ -1,0 +1,24 @@
+    In [41]: a = np.array([1, 2, 3])
+
+    In [42]: b = np.array([4, 5, 6])
+
+Horizontal stack:
+
+    In [44]: np.hstack([a, b])
+    Out[44]: array([1, 2, 3, 4, 5, 6])
+
+Vertical stack:
+
+    In [45]: np.vstack([a, b])
+    Out[45]:
+    array([[1, 2, 3],
+           [4, 5, 6]])
+
+Column stack:
+
+    In [46]: np.column_stack([a, b])
+    Out[46]:
+    array([[1, 4],
+           [2, 5],
+           [3, 6]])
+
