@@ -4,8 +4,10 @@
         "body": [
             "#!/usr/bin/env python3",
             "",
+            "",
             "def main():",
             "    print(\"$0Py3\")",
+            "",
             "",
             "##############################################################################",
             "",
@@ -57,5 +59,21 @@
             ""
         ],
         "description": "basic Python 3 turtle skeleton"
+    },
+    "switch Ruff formatting off": {
+        "prefix": "off",
+        "body": [
+            "# fmt: off",
+            "$0"
+        ],
+        "description": "switch Ruff formatting off"
+    },
+    "switch Ruff formatting on": {
+        "prefix": "on",
+        "body": [
+            "# fmt: on",
+            "$0"
+        ],
+        "description": "switch Ruff formatting on"
     },
 }
