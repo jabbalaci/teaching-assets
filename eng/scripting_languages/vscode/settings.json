@@ -1,0 +1,358 @@
+{
+  "files.eol": "\n",
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.colorCustomizations": {
+    "editor.background": "#fcf5e3",
+    "sideBar.background": "#f9edcd",
+    // "editor.lineHighlightBackground": "#e9f2fa",
+    "editor.lineHighlightBackground": "#efefef",
+    // "editor.lineHighlightBorder": "#9292ac"
+    "editor.lineHighlightBorder": "#c5c5c5"
+  },
+  "customWindowZoom.zoomLevelChangeValue": 1.5, // my setting: 1.5
+  "window.zoomLevel": 1.0, // to increase font in File Explorer on the left side; default: 1.0
+  "editor.fontSize": 20,
+  "fontshortcuts.step": 1, // my setting: 1
+  "editor.mouseWheelZoom": true,
+  // "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Iosevka Fixed, Hack, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Hack",
+  "terminal.integrated.fontSize": 18, // my setting: 16
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  // "code-runner.runInTerminal": true,
+  "workbench.iconTheme": "material-icon-theme",
+  // start: trailing whitespaces
+  "files.trimTrailingWhitespace": true,
+  "tws.highlightTrailingWhiteSpace": true,
+  "tws.trimOnSave": false,
+  // end: trailing whitespaces
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.roundedSelection": false,
+  "files.exclude": {
+    "**/.git/": true,
+    ".idea/": true,
+    ".dart_tool/": true,
+    ".vscode/": true,
+    "**/.gradle/": true,
+    "**/__pycache__/": true,
+    "**/**/*.pyc": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/**/*.class": true,
+    "server-*.log": true,
+    "**/**/*.mod": true,    // for Fortran
+  },
+  "macros": {
+    "commentLine": [
+      "editor.action.commentLine",
+      "cursorDown"
+    ]
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderControlCharacters": false,
+  "explorer.confirmDelete": true,
+  "dart.checkForSdkUpdates": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [
+    100
+  ],
+  "python.defaultInterpreterPath": "/bin/python",
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.formatOnType": true
+  },
+  "ruff.lint.ignore": [
+    "F403",
+    "F405"
+  ],
+  // "python.analysis.diagnosticSeverityOverrides": {
+  // "reportWildcardImportFromLibrary": "none",
+  // "reportAttributeAccessIssue": "none",
+  // "reportArgumentType": "none",
+  // "reportCallIssue": "none",
+  // "reportAssignmentType": "none",
+  // },
+  "[nim]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    // "editor.autoIndent": "advanced",
+    // "editor.indentSize": 2,
+    // "editor.detectIndentation": true,
+    // "editor.formatOnType": true,
+  },
+  // "d.servedPath": "/home/jabba/.local/share/code-d/bin/serve-d",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // https://dartcode.org/docs/recommended-settings/
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "code-runner.executorMap": {
+    "csharp": "dotnet run",
+    "odin": "odin run $fileName",
+    "elixir": "elixir $fileName",
+    "gleam": "GLEAM_LOG=0 gleam run"
+    // "dart": "dart $fileName"
+  },
+  "editor.lineHeight": 0,
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "csharp.suppressBuildAssetsNotification": true,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.preview": false,
+  "open-in-vim.useNeovim": true,
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": null,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "julia.lint.run": false,
+  "[elixir]": {
+    "editor.formatOnSave": true
+  },
+  "[nushell]": {
+    "editor.tabSize": 2
+  },
+  "editor.minimap.showSlider": "always",
+  // "todohighlight.keywords": [
+  //     {
+  //         "text": " !",
+  //         "color": "#000000",
+  //     },
+  // ],
+  "highlight.regexes": {
+    "( !)[^=#]": [
+      {
+        "color": "#000000", // black
+        "backgroundColor": "#ffe300",
+        "fontWeight": "bold",
+      }
+    ]
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.stickyScroll.enabled": true,
+  "lldb.suppressUpdateNotifications": true,
+  "go.survey.prompt": false,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "redhat.telemetry.enabled": false,
+  "python.venvFolders": [
+    "~/.virtualenvs"
+  ],
+  // "[vue]": {
+    // "editor.defaultFormatter": "octref.vetur"
+  // },
+  "java.inlayHints.parameterNames.enabled": "none",
+  "java.configuration.runtimes": [
+    {
+      // "name": "JavaSE-17",
+      // "path": "/usr/lib/jvm/java-17-openjdk",
+      // "name": "JavaSE-21",
+      // "path": "/usr/lib/jvm/java-21-openjdk",
+      "name": "JavaSE-25",
+      "path": "/usr/lib/jvm/java-25-openjdk",
+      "default": true
+    },
+  ],
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "files.associations": {
+    "*.Rmd": "markdown",
+    "Justfile": "just",
+    "*.h": "c"
+  },
+  "pascal.formatter.engine": "ptop",
+  "pascal.formatter.enginePath": "/opt/fpcupdeluxe/fpc/bin/x86_64-linux/ptop",
+  "pascal.format.indent": 2,
+  "[objectpascal]": {
+    "editor.tabSize": 2,
+  },
+  "lldb.library": "/usr/lib/swift/lib/liblldb.so",
+  "lldb.launch.expressions": "native",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      // {
+      // "match": "\\.swift$",
+      // "isAsync": false,
+      // "cmd": "cd '${fileDirname}' && swift-format -i --configuration ~/.swift-format.json '${fileBasename}'"
+      // },
+      // {
+      // "match": "\\.c$",
+      // "isAsync": false,
+      // "cmd": "cd '${fileDirname}' && clang-format --style=Microsoft -i '${fileBasename}'"
+      // },
+      {
+        "match": "\\.pas$",
+        "isAsync": false,
+        // "cmd": "cd '${fileDirname}' && ptop -l 100 -c /home/jabba/Dropbox/pascal/FreePascalStuff/ptop/config.cfg '${fileBasename}' '${fileBasename}.hjg6343.tmp' && mv '${fileBasename}.hjg6343.tmp' '${fileBasename}' && /home/jabba/Dropbox/pascal/FreePascalStuff/ptop/post_correction.py '${fileBasename}' '${fileBasename}.hjg6343.tmp' && mv '${fileBasename}.hjg6343.tmp' '${fileBasename}'"
+        // "cmd": "cd '${fileDirname}' && pascal-format -config=/home/jabba/Dropbox/pascal/FreePascalStuff/jcf-pascal-format/jabba.cfg '${fileBasename}'"
+      },
+      {
+        "match": "\\.f90$",
+        "isAsync": false,
+        // "-w 3": space around '*' and '/'
+        "cmd": "cd '${fileDirname}' && fprettify -w 3 '${fileBasename}'"
+      },
+      // {
+      // "match": "\\.nim$",
+      // "isAsync": false,
+      // "cmd": "cd '${fileDirname}' && nph '${fileBasename}'"
+      // },
+    ]
+  },
+  //  "carbon.theme": "seti",
+  "carbon.theme": "dracula",
+  "carbon.lineNumbers": true,
+  "carbon.fontFamily": "Hack",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[c]": {
+  // "editor.formatOnSave": true,
+  // }
+  "C_Cpp.debugShortcut": false,
+  "github.copilot.editor.enableAutoCompletions": false,
+  "doublebot.showInlineKeybindingHint": "Never",
+  "kickass-c64.kickAssJar": "/opt/KickAssembler/KickAss.jar",
+  "kickass-c64.useC64Debugger": false,
+  "kickass-c64.viceBin": "x64sc",
+  "git.enableSmartCommit": true,
+  "c64basicv2.petcat": "/bin/petcat",
+  "c64basicv2.x64sc": "/bin/x64sc",
+  "c64basicv2.showCtrlCharacterInfo": true,
+  "c64basicv2.showInlineAutomaticProofreader": true,
+  "vs64.showWelcome": false,
+  "vs64.cc65InstallDir": "/usr",
+  "vs64.kickInstallDir": "/opt/KickAssembler",
+  "vs64.acmeInstallDir": "/usr/bin",
+  "d.dubCompiler": "dmd",
+  "d.stdlibPath": "auto",
+  "d.dubPath": "/usr/bin/dub",
+  "d.servedPath": "/home/jabba/.local/share/code-d/bin/serve-d",
+  "d.dcdClientPath": "/home/jabba/.local/share/code-d/bin/dcd-client",
+  "d.dcdServerPath": "/home/jabba/.local/share/code-d/bin/dcd-server",
+  "d.alwaysShowDubStatusButtons": true,
+  "[d]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "security.workspace.trust.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "codeium.enableConfig": {
+    "*": false,
+    "d": true,
+    "plaintext": true,
+    "just": true,
+    "objectpascal": true
+  },
+  "makefile.configureOnOpen": false,
+  "omnipascal.defaultDevelopmentEnvironment": "FreePascal",
+  // if installed with fpcupdeluxe:
+  "omnipascal.delphiInstallationPath": "/opt/fpcupdeluxe/fpc/bin/x86_64-linux/fpc",
+  "omnipascal.freePascalSourcePath": "/opt/fpcupdeluxe/fpcsrc/",
+  "omnipascal.lazbuildPath": "/opt/fpcupdeluxe/lazarus/lazbuild",
+  "pascal.formatter.engineParameters": "/home/jabba/Dropbox/pascal/FreePascalStuff/ptop/config.cfg",
+  "pascal.format.wrapLineLength": 100,
+  "pascal-uses-formatter.updateUnitNames": false,
+  "supermaven.enable": {
+    "*": false
+  },
+  "chat.commandCenter.enabled": false,
+  "nim.inlayHints.parameterHints.enable": false,
+  "nim.inlayHints.typeHints.enable": false,
+  "hexeditor.inspectorType": "sidebar",
+  "tabnine.snoozeDuration": 24,
+  "tabnine.codeLensEnabled": false,
+  "editor.find.autoFindInSelection": "always",
+  "d.servedReleaseChannel": "beta",
+  "d.lintOnFileOpen": "always",
+  "d.smartServedUpdates": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "codeium.enableCodeLens": false,
+  // if installed with yay (package manager):
+  // "omnipascal.delphiInstallationPath": "/bin/fpc",
+  // "omnipascal.freePascalSourcePath": "/usr/lib/fpc/src/",
+  // "[kotlin]": {
+  // "editor.defaultFormatter": "cstef.kotlin-formatter",
+  // "editor.formatOnSave": true,
+  // },
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "fortran.fortls.path": "/home/jabba/.local/share/nvim.ks/mason/bin/fortls",
+  "[FortranFreeForm]": {
+    "editor.tabSize": 3,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    // "editor.codeActionsOnSave": {
+    // "source.organizeImports": "always"
+    // }
+  },
+  "fortran.formatting.formatter": "Disabled",
+  // for FPM
+  "fortran.linter.includePaths": [
+    "${workspaceFolder}/build/**",
+    "${workspaceFolder}/src/**"
+  ],
+  // for FPM
+  "fortran.fortls.directories": [
+    "${workspaceFolder}/build/**",
+    "${workspaceFolder}/src/**",
+  ],
+  "fortran.notifications.releaseNotes": false,
+}
