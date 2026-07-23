@@ -1,0 +1,84 @@
+Python:
+
+print("hello")
+
+$ python3 main.py
+
+-------------------------------------------------
+
+Java:
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("hello");
+    }
+}
+
+$ javac Main.java
+$ java Main
+
+-------------------------------------------------
+
+C:
+
+#include <stdio.h>
+
+int main()
+{
+    printf("hello\n");
+
+    return 0;
+}
+
+$ gcc main.c
+
+-------------------------------------------------
+
+C#:
+
+$ dotnet new console
+
+using System;
+using static System.Console;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace Example
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            WriteLine("hello");
+        }
+    }
+}
+
+$ dotnet run
+
+-------------------------------------------------
+
+Go:
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("go")
+}
+
+$ go build main.go
+
+-------------------------------------------------
+
+Nim:
+
+echo "hello"
+
+$ nim c main.nim
