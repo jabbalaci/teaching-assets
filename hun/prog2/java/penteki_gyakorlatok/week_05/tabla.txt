@@ -1,0 +1,33 @@
+virtuális tábla
+===============
+
+stringbuffer (sztringpuffer)
+------------
+
+sztring megfordítása
+--------------------
+
+Python: s[::-1]
+
+HF:
+
+StringUtils.strrev("Hello")            ->  "olleH"
+
+String strrev(String s) { ... }
+
+HF:
+
+StringUtils.isPalindrome("anna")        -> true
+StringUtils.isPalindrome("bela")        -> false
+
+split / join műveletek
+----------------------
+
+s.trim().split("\\s+")
+
+"\\s+"
+
+gyakorlás
+---------
+
+bit.ly/2SpvYrf
