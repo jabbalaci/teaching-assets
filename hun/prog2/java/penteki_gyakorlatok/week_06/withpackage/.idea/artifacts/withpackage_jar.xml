@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="withpackage:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/withpackage_jar</output-path>
+    <root id="archive" name="withpackage.jar">
+      <element id="module-output" name="withpackage" />
+    </root>
+  </artifact>
+</component>
